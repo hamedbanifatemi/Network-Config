@@ -70,8 +70,9 @@ interface FastEthernet0/22
 interface FastEthernet0/23
 !
 interface FastEthernet0/24
- no switchport
- no ip address
+ switchport
+ switchport mode access
+ switchport access vlan 10
 !
 interface GigabitEthernet0/1
 !
